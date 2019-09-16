@@ -6,15 +6,18 @@ module.exports = {
     socialsData: [
       {
         name: `github`,
-        link: `https://github.com/jocchann`
+        link: `https://github.com/jocchann`,
+        target: `_blank`
       },
       {
         name: `linkedin`,
-        link: `https://www.linkedin.com/in/joannacchan/`
+        link: `https://www.linkedin.com/in/joannacchan/`,
+        target: `_blank`
       },
       {
         name: `email`,
-        link: `mailto:jochdev@gmail.com`
+        link: `mailto:jochdev@gmail.com`,
+        target: `_blank`
       }
     ]
   },

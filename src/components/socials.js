@@ -18,8 +18,10 @@ const Socials = () => {
 
     return (
         <div>
-           {data.site.siteMetadata.socialsData.map(social => (
+           {data.site.siteMetadata.socialsData.map((social, index) => (
                <a 
+                key={index}
+                target={social.target ? social.target : `_self`}
                 href={social.link}
                 style={{
                    marginLeft: '10px',
